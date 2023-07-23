@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TransactionsList from "./TransactionList";
+import TransactionsList from "./TransactionsList";
 import Search from "./Search";
 import AddTransactionForm from "./AddTransactionForm";
 
@@ -32,7 +32,7 @@ function AccountContainer() {
 
   //Handling  the search input
   const handleSearch = (searchValue) => {
-    console.log("I searched for...");
+    console.log("I searched");
     setSearch(searchValue);
 
     //fetch the transactions to make  the search dynamic
