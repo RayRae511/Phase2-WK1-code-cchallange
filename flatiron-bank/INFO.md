@@ -39,3 +39,29 @@ To add a new transaction to the app, you simply put in the details of the transa
 7. Once the data is fetched, the app will create HTML elements to display the transactions data on the page.
 
 8. If you want to delete the transaction, the application will send a DELETE request to the API endpoint which will make the transaction data to be deleted.
+
+
+## Technologies Used
+
+- JavaScript
+- HTML
+- CSS
+- React
+
+
+## API Endpoint
+
+The application fetches data from the following API endpoint:
+
+API Endpoint: [ https://api.npoint.io/99410ec55ae9fca4a9cf/transactions]
+
+Replace `[API Endpoint URL]` with the actual API endpoint you want to fetch data from.
+## Author
+
+Author: [Raymond Ong'ang'a]
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
