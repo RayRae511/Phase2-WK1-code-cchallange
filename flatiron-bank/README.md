@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+PHASE 2 WEEK 1 CODE CHALLANGE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bank of Flatiron
 
-## Available Scripts
+This is the Bank of Flatiron app, a JavaScript/React application that fetches data from an API and dynamically manipulates the DOM to displays in the transactions data and allow the user to add and/or delete transactions.
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Bank of Flatiron app fetches data from an API and dynamically manipulates the DOM to display a collection of transactions data. It showcases how to use JavaScript and React to interact with APIs and dynamically create HTML elements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To add a new transaction to the app, you simply put in the details of the transaction i.e the date, amount, description and category of the transaction. If you did make a mistake or just didn't want to put in the details of the transaction, you can simply delete it but a click of a button!
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+`https://github.com/RayRae511/Phase2-WK1-code-cchallange`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project folder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd Phase2-WK1-code-cchallange `
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install json-server tool with the command
 
-### `npm run eject`
+`npm install -g json-server`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 4. Run db.json file using the command
+ `json-server --watch db.json`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ 5.Open the index.html file on the server and access the index.html file using this URL
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ ` http://localhost:3000/transactions`
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. The application will send a GET request to the API endpoint to fetch the transactions data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Once the data is fetched, the app will create HTML elements to display the transactions data on the page.
 
-### Code Splitting
+8. If you want to delete the transaction, the application will send a DELETE request to the API endpoint which will make the transaction data to be deleted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- JavaScript
+- HTML
+- CSS
+- React
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## API Endpoint
 
-### Advanced Configuration
+The application fetches data from the following API endpoint:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+API Endpoint: [ https://api.npoint.io/99410ec55ae9fca4a9cf/transactions]
 
-### Deployment
+Replace `[API Endpoint URL]` with the actual API endpoint you want to fetch data from.
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Author: [Raymond Ong'ang'a]
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
+
+
